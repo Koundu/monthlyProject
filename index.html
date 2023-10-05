@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!--Navbar will go Here-->
+    </header>
+    <main>
+        <!--Search bar, listing, map will go here-->
+        <div class="navBar">
+            <div class="search-bar">
+                <form>
+                    <div class="location-input">
+                        <label>Location</label>
+                        <input type="text" placeholder="Where are you going?" id="search-input" >
+                    </div>
+                    <div>
+                      <label>Check in</label>
+                      <input type="date" placeholder="Add Date" id="checkIn">
+                    </div>
+                    <div>
+                      <label>Check out</label>
+                      <input type="date" placeholder="Add Date" id="checkOut">
+                    </div>
+                    <div>
+                      <label>Guest</label>
+                      <input type="number" placeholder="Guests" min="1" max="20" id="guestCount">
+                    </div>
+                    <button type="submit" id="search-button"><img src="images/search.png"></button>
+                </form>
+            </div>
+        </div>
+        <!--Listings-->
+        <div id="listings-container">
+            
+        </div>
+    </main>
+    <footer>
+        <!--Footer will go here-->
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
