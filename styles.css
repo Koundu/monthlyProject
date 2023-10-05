@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.navBar{
+    padding: 0 7%;
+    margin-top: 20px;
+    position: sticky;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    margin-inline: auto;
+    width: 70%;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+    box-shadow: 3px 7px #ff5361;
+}
+
+#search-input{
+    padding: 0px;
+    font-size: 16px;
+}
+form>div{
+    flex: 1;
+}
+#checkOut,#checkIn,#guestCount{
+    margin-inline: 20px;
+}
+
+
+
+#search-button{
+    font-size: 16px;
+}
+
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.search-bar form button{
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.search-bar form button img{
+    width: 15px;
+    margin-top: 7px;
+}
+.location-input{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 600;
+}
+
+#listings-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
